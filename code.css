@@ -1,0 +1,12 @@
+.top_slider > .top_slider__item {
+  display: none;
+}
+.top_slider .top_slider__item:first-child {
+  display: flex;
+}
+.top_slider .top_slider__item:nth-child(-n+4) {
+  display: none;
+}
+.top_slider.slick-initialized .top_slider__item {
+  display: flex;
+}
